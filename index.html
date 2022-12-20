@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Bootstrap Form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Supherhero">
+    <meta name="keywords" content="programming hero,learn programming">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/vnd.microsoft.icon">
+    <!--@bootstrapCss-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!--custom css-->
+    <style>
+      
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+      }
+      
+      form {
+        margin: 10px;
+        border: 2px solid black;
+        padding: 20px;
+      }
+    
+    </style>
+    
+    
+    
+  </head>
+  <body>
+  		
+  		
+  		<form class="rounded">
+  		  
+  		  <h3 class="text-center">Sign In</h3><hr/>
+  		  
+  		  <div class="m-3">
+  		    
+  		    <label class="form-label" for="email">Email : </label>
+  		    <input type="email" class="form-control" id="email" required/>
+  		    
+  		  </div>
+  		  
+  		  <div class="m-3">
+  		  
+  		    <label class="form-label" for="password">Password : </label>
+  		    <input type="password" class="form-control" id="password" required/>
+  		  
+  		  </div>
+  		  
+  		  <div class="form-check m-3">
+  		  
+  		    <input type="checkbox" class="form-check-input" id="check"/>
+  		    <label class="form-check-label" for="check">Remember Me</label>
+  		  
+  		  </div>
+  		  
+  		  <div class="m-3">
+  		  
+  		    <input type="submit" class="btn btn-primary w-100"/>
+  		  
+  		  </div>
+  		  
+  		  <div>
+  		  
+  		    <p>You have no account😶! Ok,</p>
+  		    <a href="signup.html">Create an account</a>
+  		  
+  		  </div>
+  		
+  		</form>
+  		
+    <!--main js-->
+    <script src="js/main.js"></script>
+  </body>
+</html>
